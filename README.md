@@ -3,7 +3,28 @@
 ## 🎯 Project Aim
 The objective of this project is to enhance the performance and user experience of "Trip Away," a comprehensive travel aggregator, through in-depth data analysis.
 
-### 🥅 Goals
+### 📂 Project Structure
+```
+📁 Data_Analysis_Travel-Aggregator-Analysis
+│── 📂 data               # Dataset files
+│── 📂 notebook          # Jupyter notebook for EDA 
+│── 📜 README.md          # Project documentation
+│── 📜 requirements.txt   # Dependencies
+
+```
+### 🛠 Installation & Setup
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/mcadriaans/Data_Analysis_Travel-Aggregator-Analysis.git
+   cd Data_Analysis_Travel-Aggregator-Analysis
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 🥅 Goals
 1. **Analyze Customer Behavior:** Understand booking trends to tailor services to customer needs.
 2. **Identify High-Demand Routes:** Predict peak travel times and popular destinations to optimize resource allocation.
 3. **Detect Anomalies:** Identify and address fraudulent bookings or unusual price fluctuations to ensure platform integrity.
@@ -41,6 +62,7 @@ This data-driven approach leverages Python to extract valuable insights and prov
 | search_time        | Timestamp when the search was conducted        |
 | session_starting_time | Timestamp of when the session started       |
 | booking_id         | Unique booking reference if a booking was made from the session (nullable) |
+
 
 ## 🔍 Key Findings
 
